@@ -1,0 +1,9 @@
+my-style-finder/
+├── public/
+├── src/
+│   ├── components/     # Тесты, рекомендации
+│   ├── pages/          # Главная, тест, профиль
+│   ├── App.js
+│   └── index.js
+├── .env                # REACT_APP_API_URL=http://localhost:8000
+└── package.json
