@@ -1,0 +1,10 @@
+backend/
+├── manage.py
+├── myproject/
+│   ├── settings.py    # Добавьте django-environ для .env
+│   └── urls.py
+├── api/               # app для тестов/рекомендаций
+│   ├── models.py      # StyleTest, Recommendation
+│   └── migrations/
+├── .env               # DEBUG=True, SECRET_KEY, DB
+└── requirements.txt
